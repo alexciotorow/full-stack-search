@@ -80,8 +80,8 @@ When clicking on one of the `Hotels`, `Cities` or `Countries` links, the applica
 
 ### Limitations
 
-Given the time constraints, we do not expect a fully production-ready solution. We're primarily interested in the approach and the overall quality of the solution. 
-Feel free to modify the current codebase as needed, including adding or removing dependencies. 
+Given the time constraints, we do not expect a fully production-ready solution. We're primarily interested in the approach and the overall quality of the solution.
+Feel free to modify the current codebase as needed, including adding or removing dependencies.
 For larger or more time-intensive changes, you're welcome to outline your ideas in the write-up section below and discuss them further during the call.
 
 <img src="./assets/search-example.png" width="400px" />
@@ -90,7 +90,16 @@ For larger or more time-intensive changes, you're welcome to outline your ideas 
 
 <!-- Write-up/conclusion section -->
 
-_When all the behaviour is implemented, feel free to add some observations or conclusions you like to share in the section_
+_When all the behaviour is implemented, feel free to add some observations or conclusions you like to share in the section_:
+
+As far as my contribution to this project, I have done the following:
+
+Updated all dependencies to the package.json; everything is running at it's @latest
+
+For the api package, implemented layers separating the logic between routes, controllers and services.
+
+For the client, implemented routing; used a more modular approach breaking things down into multiple components
+centralized the api fetching into a separate component for better state management
 
 ### Database structure
 
